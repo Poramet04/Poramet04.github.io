@@ -15,3 +15,7 @@
 - Email: [Poramet.o@ku.th]  
 
 ![me](img/deldel.jpeg)
+
+---
+
+### 🎉 Check out my [New Year Celebration](new_year.md)!
