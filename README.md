@@ -14,4 +14,4 @@
 - line [modelkung] 
 - Email: [Poramet.o@ku.th]  
 
-![me](IMG_0394.jpeg)
+![me](img/deldel.jpeg)
