@@ -19,3 +19,4 @@
 ---
 
 ### 🎉 Check out my [New Year Celebration](new_year.md)!
+### Data Quality [timeliness](timeliness.md)!
