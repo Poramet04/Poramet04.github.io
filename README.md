@@ -1,4 +1,4 @@
-<div align="center" style="background-color:#0D1117; color:white; padding:20px; border-radius:10px">
+
 
 # 🌟 Poramet Obyam (Model)  
 
@@ -41,4 +41,4 @@
 
  🚀  
 
-</div>
+
