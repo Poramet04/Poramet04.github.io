@@ -1,6 +1,6 @@
 # 🔗 Security Control: การสแกนคีย์การ์ดเข้าหอพัก
 
-(img/IMG_0537.jpeg)
+![Security Image](img/IMG_0537.jpeg)
 
 
 ## 📍 สถานที่
