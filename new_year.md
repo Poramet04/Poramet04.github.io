@@ -1,7 +1,7 @@
 # 🎄 Merry Christmas! 🎅
 
 
-![Christmas Image](img/IMG_0536.jpeg)
+![Christmas Image](img/decodelawkub.png)
 
 ## Dear Nophawan,  
 
