@@ -124,9 +124,9 @@ footer { max-width: var(--max); margin: 0 auto; padding: 28px; display: flex; ju
 @media (max-width: 760px) {
   nav { gap: 14px; }
   nav a:nth-child(2) { display: none; }
-  .hero { min-height: auto; padding-top: 32px; padding-bottom: 50px; grid-template-columns: 1fr; gap: 32px; }
-  .hero-copy { grid-column: 1; grid-row: 2; }
-  .hero h1 { font-size: clamp(2.55rem, 12vw, 3.4rem); white-space: nowrap; }
+  .hero { min-height: auto; padding-top: 32px; padding-bottom: 50px; grid-template-columns: 170px minmax(0, 1fr); gap: 28px; }
+  .hero-copy { grid-column: 2; grid-row: 1; }
+  .hero h1 { font-size: clamp(2.4rem, 7vw, 3.2rem); white-space: nowrap; }
   .portrait-wrap { width: 170px; grid-column: 1; grid-row: 1; justify-self: start; }
   .intro-grid, .experience-card { grid-template-columns: 1fr; gap: 28px; }
   .project-grid { grid-template-columns: 1fr; }
@@ -137,6 +137,13 @@ footer { max-width: var(--max); margin: 0 auto; padding: 28px; display: flex; ju
   .skills-grid > div:nth-child(even) { padding-left: 0; }
   .section-heading { align-items: start; flex-direction: column; }
   .contact-foot { flex-direction: column; gap: 8px; }
+}
+
+@media (max-width: 540px) {
+  .hero { grid-template-columns: 1fr; gap: 28px; }
+  .portrait-wrap { grid-column: 1; grid-row: 1; }
+  .hero-copy { grid-column: 1; grid-row: 2; }
+  .hero h1 { font-size: clamp(2.45rem, 12vw, 3.2rem); }
 }
 
 @media (prefers-reduced-motion: reduce) {
