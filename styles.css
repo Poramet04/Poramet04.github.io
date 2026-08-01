@@ -85,7 +85,7 @@ nav a:hover, .text-link:hover { opacity: .58; }
 .experience-photo { aspect-ratio: 4 / 3; overflow: hidden; background-color: var(--line); background-repeat: no-repeat; }
 .photo-one,
 .photo-two { background-image: url("codex-clipboard-9b03a7fe-79f3-4fc8-b9d8-78e5c2892b8d.png"); background-size: 193% auto; }
-.photo-one { background-position: left center; }
+.photo-one { background-position: 5% center; }
 .photo-two { background-size: 233% auto; background-position: right center; }
 .photo-three,
 .photo-four { background-image: url("codex-clipboard-2b38facc-f5d0-4789-a861-14102e6f7428.png"); background-size: 262% auto; }
