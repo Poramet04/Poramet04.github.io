@@ -38,10 +38,11 @@ nav a:hover, .text-link:hover { opacity: .58; }
   padding-top: 42px;
   padding-bottom: 58px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 230px;
+  grid-template-columns: 230px minmax(0, 1fr);
   gap: 54px;
   align-items: center;
 }
+.hero-copy { grid-column: 2; grid-row: 1; }
 .eyebrow, .section-kicker, .project-type {
   font-size: .73rem;
   letter-spacing: .15em;
@@ -59,7 +60,7 @@ nav a:hover, .text-link:hover { opacity: .58; }
 .button { display: inline-flex; padding: 11px 16px; border: 1px solid var(--ink); text-decoration: none; font-size: .8rem; font-weight: 700; }
 .button.primary { color: var(--white); background: var(--ink); }
 .button:hover { transform: translateY(-2px); }
-.portrait-wrap { width: 210px; justify-self: end; }
+.portrait-wrap { width: 210px; grid-column: 1; grid-row: 1; justify-self: start; }
 .portrait-frame { width: 100%; aspect-ratio: 4 / 5; overflow: hidden; background: var(--line); }
 .portrait {
   width: 100%;
@@ -124,8 +125,9 @@ footer { max-width: var(--max); margin: 0 auto; padding: 28px; display: flex; ju
   nav { gap: 14px; }
   nav a:nth-child(2) { display: none; }
   .hero { min-height: auto; padding-top: 32px; padding-bottom: 50px; grid-template-columns: 1fr; gap: 32px; }
+  .hero-copy { grid-column: 1; grid-row: 2; }
   .hero h1 { font-size: clamp(2.55rem, 12vw, 3.4rem); white-space: nowrap; }
-  .portrait-wrap { width: 170px; justify-self: start; }
+  .portrait-wrap { width: 170px; grid-column: 1; grid-row: 1; justify-self: start; }
   .intro-grid, .experience-card { grid-template-columns: 1fr; gap: 28px; }
   .project-grid { grid-template-columns: 1fr; }
   .project-card.featured { grid-column: auto; }
