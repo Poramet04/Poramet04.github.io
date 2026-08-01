@@ -115,10 +115,10 @@ nav a:hover, .text-link:hover { opacity: .58; }
 .skills-grid h3 { margin: 12px 0 4px; font-size: 1.2rem; }
 .skills-grid p { margin: 0; color: var(--muted); }
 
-.contact { margin-top: 30px; padding-top: 52px; padding-bottom: 52px; background: var(--ink); color: var(--white); }
+.contact { margin-top: 24px; padding-top: 30px; padding-bottom: 30px; background: var(--ink); color: var(--white); }
 .contact h2 { max-width: 700px; font-size: clamp(1.65rem, 2.8vw, 2.35rem); }
-.contact-mail { display: inline-block; margin-top: 28px; color: #b8d9bf; font-size: clamp(1.15rem, 2.5vw, 2rem); font-weight: 700; text-underline-offset: 6px; }
-.contact-foot { margin-top: 34px; display: flex; gap: 24px; color: #b7bab7; font-size: .76rem; }
+.contact-mail { display: inline-block; margin-top: 16px; color: #b8d9bf; font-size: clamp(1.15rem, 2.5vw, 2rem); font-weight: 700; text-underline-offset: 6px; }
+.contact-foot { margin-top: 20px; display: flex; gap: 24px; color: #b7bab7; font-size: .76rem; }
 footer { max-width: var(--max); margin: 0 auto; padding: 28px; display: flex; justify-content: space-between; color: var(--muted); font-size: .76rem; }
 
 @media (max-width: 760px) {
