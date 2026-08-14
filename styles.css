@@ -114,6 +114,7 @@ nav a:hover, .text-link:hover { opacity: .58; }
 .tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 22px 0; }
 .tag-row span { border: 1px solid var(--line); border-radius: 999px; padding: 5px 10px; font-size: .73rem; font-weight: 700; }
 .featured .tag-row span { border-color: #9bad9a; }
+.project-links { display: flex; flex-wrap: wrap; gap: 12px 24px; }
 .private-note { margin-bottom: 0; font-size: .78rem; }
 
 .skills-section { border-top: 1px solid var(--line); }
